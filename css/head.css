@@ -1,0 +1,161 @@
+
+  .header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 215, 215);
+  }
+  .left-side{
+    display: flex;
+    align-items: center;
+
+  }
+  .youtube-icon{
+    height: 20px;
+
+  }
+  .hamburg-icon{
+height: 24px;
+margin-left: 23px;
+margin-right: 23px;
+  }
+  .middile{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    
+margin-left: 70px; 
+margin-right: 35px;
+max-width: 600px;
+  }
+  .s-bar{
+    height: 31px;
+    flex: 1;
+    padding-left: 10px ;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(192,192, 192 );
+border-radius:3px ;
+box-shadow: inset 1px 1px 1px
+rgba(0, 0, 0.03);
+width: 0;
+transition: hover,0.5s;
+  }
+  .s-bar::placeholder{
+    font-family: roboto,arial;
+  }
+  .s-bar:hover{
+    background-color: rgb(196, 190, 190);
+    cursor: pointer;
+  }
+  .s-bar:active{
+    opacity: 0.4;
+  }
+  .saerch-icon{
+width: 66px;
+height: 35px;
+background-color: rgb(242,242,242);
+border-width: 1px;
+border-style: solid;
+border-color: rgb(192,192, 192);
+margin-left:-4px ;
+margin-right: 9px;
+
+
+  }
+.saerch-icon ,.voice-icon,.upload-icon,.appllication-icon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
+  
+  .saerch-icon .hover-element, .voice-icon  .hover-element,.upload-icon .hover-element,.appllication-icon .hover-element
+   {
+    position: absolute;
+    background-color: grey;
+    color: wheat;
+    padding: 4px 7px;
+    border-radius: 2px;
+    font-size: 11px;
+    bottom: -35px;
+    opacity: 0;
+transition: opacity 0.14s;
+pointer-events: none;
+
+white-space: nowrap;
+  }
+  .saerch-icon:hover .hover-element, .voice-icon:hover  .hover-element,.upload-icon:hover .hover-element,.appllication-icon:hover .hover-element
+  {
+    opacity: 1;
+  }
+ .saerch-img{
+  height: 22px;
+
+ }
+  .voice-icon{
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: rgb(245, 244, 244);
+    border-radius: 18px;
+  
+     }
+     
+     .voice-img{
+      height: 19px;
+    
+     }
+  .right-side{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  .upload-icon{
+    height: 22px;
+  }
+  .apps-icon{
+    height: 22px;
+  }
+  .notification-icon{
+    height: 22px;
+  }
+  .notification-container{
+    position: relative;
+  }
+  .notification-num{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(160, 37, 37);
+    color: wheat;
+    font-family: roboto,arial;
+    font-size:11px;
+    font-weight: 500; 
+    border-radius: 15px;
+    padding: 2px 4px;
+  }
+  .user-img{
+    height: 35px;
+    border-radius: 17px;
+  }
+  
+  
+  
+  
